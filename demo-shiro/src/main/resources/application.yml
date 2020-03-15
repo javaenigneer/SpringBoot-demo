@@ -1,0 +1,10 @@
+
+#启动端口
+server:
+  port: 8888
+
+spring:
+  application:
+    name: demo-shiro
+
+
