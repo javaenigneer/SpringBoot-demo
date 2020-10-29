@@ -1,0 +1,16 @@
+#�˿�
+server:
+  port: 8001
+#����Դ
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=GMT%2b8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root
+    type: com.alibaba.druid.pool.DruidDataSource
+
+#mybatis-plus����
+mybatis-plus:
+  mapper-locations: classpath:mapper/*.xml
+
