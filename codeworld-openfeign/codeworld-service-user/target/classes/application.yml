@@ -1,0 +1,18 @@
+server:
+  port: 10000
+spring:
+  application:
+    name: codeworld-service-user
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+        register-enabled: true
+        weight: 1
+ribbon:
+  ReadTimeout: 10000 #��������ĳ�ʱʱ�䣬Ĭ��Ϊ1��
+  ConnectTimeout: 10000 #���ӽ����ĳ�ʱʱ����Ĭ��1��
+  MaxAutoRetries: 1 #ͬһ̨ʵ����������Դ��������ǲ������״ε��ã�Ĭ��Ϊ1��
+feign:
+  hystrix:
+    enabled: true

@@ -1,0 +1,18 @@
+server:
+  port: 10000
+spring:
+  application:
+    name: codeworld-service-user
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+        register-enabled: true
+        weight: 1
+ribbon:
+  ReadTimeout: 10000 #处理请求的超时时间，默认为1秒
+  ConnectTimeout: 10000 #连接建立的超时时长，默认1秒
+  MaxAutoRetries: 1 #同一台实例的最大重试次数，但是不包括首次调用，默认为1次
+feign:
+  hystrix:
+    enabled: true
