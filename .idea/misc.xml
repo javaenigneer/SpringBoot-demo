@@ -12,6 +12,7 @@
         <option value="$PROJECT_DIR$/codeworld-openfeign/pom.xml" />
         <option value="$PROJECT_DIR$/codeworld-openfeign/codeworld-service-user/pom.xml" />
         <option value="$PROJECT_DIR$/codeworld-openfeign/codeworld-service-role/pom.xml" />
+        <option value="$PROJECT_DIR$/codeworld-xxl-job-customize/pom.xml" />
       </list>
     </option>
   </component>

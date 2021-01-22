@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/codeworld-openfeign/codeworld-openfeign.iml" filepath="$PROJECT_DIR$/codeworld-openfeign/codeworld-openfeign.iml" />
       <module fileurl="file://$PROJECT_DIR$/codeworld-openfeign/codeworld-service-role/codeworld-service-role.iml" filepath="$PROJECT_DIR$/codeworld-openfeign/codeworld-service-role/codeworld-service-role.iml" />
       <module fileurl="file://$PROJECT_DIR$/codeworld-openfeign/codeworld-service-user/codeworld-service-user.iml" filepath="$PROJECT_DIR$/codeworld-openfeign/codeworld-service-user/codeworld-service-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/codeworld-xxl-job-customize/codeworld-xxl-job-customize.iml" filepath="$PROJECT_DIR$/codeworld-xxl-job-customize/codeworld-xxl-job-customize.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-shiro/demo-shiro.iml" filepath="$PROJECT_DIR$/demo-shiro/demo-shiro.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-spring-boot-mybatisplus/demo-spring-boot-mybatisplus.iml" filepath="$PROJECT_DIR$/demo-spring-boot-mybatisplus/demo-spring-boot-mybatisplus.iml" />
       <module fileurl="file://$PROJECT_DIR$/two-verify-demo/two-verify-demo.iml" filepath="$PROJECT_DIR$/two-verify-demo/two-verify-demo.iml" />

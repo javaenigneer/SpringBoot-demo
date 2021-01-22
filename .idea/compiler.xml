@@ -11,6 +11,7 @@
         <module name="codeworld-service-role" />
         <module name="two-verify-demo" />
         <module name="demo-spring-boot-mybatisplus" />
+        <module name="codeworld-xxl-job-customize" />
         <module name="codeworld-service-user" />
         <module name="codeworld-openfeign" />
       </profile>
@@ -19,6 +20,7 @@
       <module name="codeworld-openfeign" target="1.8" />
       <module name="codeworld-service-role" target="1.8" />
       <module name="codeworld-service-user" target="1.8" />
+      <module name="codeworld-xxl-job-customize" target="1.8" />
       <module name="demo-shiro" target="1.8" />
       <module name="demo-spring-boot-mybatisplus" target="1.8" />
       <module name="two-verify-demo" target="1.8" />
@@ -29,6 +31,7 @@
       <module name="codeworld-openfeign" options="-parameters" />
       <module name="codeworld-service-role" options="-parameters" />
       <module name="codeworld-service-user" options="-parameters" />
+      <module name="codeworld-xxl-job-customize" options="-parameters" />
       <module name="demo-shiro" options="-parameters" />
       <module name="demo-spring-boot-mybatisplus" options="-parameters" />
       <module name="two-verify-demo" options="-parameters" />
