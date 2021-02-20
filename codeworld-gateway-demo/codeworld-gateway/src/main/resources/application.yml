@@ -1,0 +1,29 @@
+spring:
+  cloud:
+    gateway:
+      globalcors:
+        cors-configurations:
+          '[/**]':
+            allowedHeaders: "*"
+            allowedOrigins: "*"
+            allowedMethods:
+              - GET
+                POST
+                DELETE
+                PUT
+                OPTION
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+      routes:
+        - id: cloud-user
+          uri: lb://codeworld-user
+          filters:
+            - AddRequestHeader=X-Request-Foo, Bar
+          predicates:
+            - Path=/codeworld-user/**
+
+
+
+
